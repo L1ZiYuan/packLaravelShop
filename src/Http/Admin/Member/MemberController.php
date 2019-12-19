@@ -1,15 +1,15 @@
 <?php
 
-namespace Pack\LaravelShops\Http\Admin\Member;
+namespace Packs\LaravelShops\Http\Admin\Member;
 
-use Pack\LaravelShops\Http\Controller\Controller;
-use Pack\LaravelShops\Models\Admin;
+use Packs\LaravelShops\Http\Controller\Controller;
+use Packs\LaravelShops\Models\Admin;
 use Illuminate\Http\Request;
 
 /**
  * 管理员控制器
  * Class MemberController
- * @package Pack\LaravelShops\Admin\Member
+ * @package Packs\LaravelShops\Admin\Member
  */
 class MemberController extends Controller
 {

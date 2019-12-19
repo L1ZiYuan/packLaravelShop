@@ -1,6 +1,6 @@
 <?php
 
-namespace Pack\LaravelShops\Models;
+namespace Packs\LaravelShops\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

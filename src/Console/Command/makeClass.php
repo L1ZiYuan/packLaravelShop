@@ -1,6 +1,6 @@
 <?php
 
-namespace Pack\LaravelShops\Console\Command;
+namespace Packs\LaravelShops\Console\Command;
 
 use Illuminate\Console\Command;
 use Illuminate\Console\GeneratorCommand;
@@ -40,7 +40,7 @@ class makeClass extends GeneratorCommand
      */
     public function rootNamespace()
     {
-        return 'Pack\LaravelShops\Http';
+        return 'Packs\LaravelShops\Http';
     }
 
     /**

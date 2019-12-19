@@ -1,8 +1,8 @@
 <?php
 
-namespace Pack\LaravelShops\Http\Admin\Role;
+namespace Packs\LaravelShops\Http\Admin\Role;
 
-use Pack\LaravelShops\Http\Controller\Controller;
+use Packs\LaravelShops\Http\Controller\Controller;
 use Illuminate\Http\Request;
 
 class RoleController extends Controller

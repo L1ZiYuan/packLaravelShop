@@ -1,5 +1,5 @@
 <?php
-namespace Pack\LaravelShops\Http\Controller;
+namespace Packs\LaravelShops\Http\Controller;
 
 use Illuminate\Http\Request;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Pack\LaravelShops\Console\Command;
+namespace Packs\LaravelShops\Console\Command;
 
 use Illuminate\Console\Command;
 
@@ -41,7 +41,7 @@ class installlms extends Command
         $this->call('migrate');
         // 发布配置文件
         $this->call('vendor:publish',[
-            '--provider' => 'Pack\LaravelShops\Provider\ServiceProvider',
+            '--provider' => 'Packs\LaravelShops\Provider\ServiceProvider',
         ]);
     }
 }

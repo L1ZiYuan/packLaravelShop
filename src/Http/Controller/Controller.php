@@ -1,6 +1,6 @@
 <?php
 
-namespace Pack\LaravelShops\Http\Controller;
+namespace Packs\LaravelShops\Http\Controller;
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;

@@ -1,5 +1,5 @@
 {
-    "name": "pack\/laravel-shops",
+    "name": "packs\/laravel-shops",
     "description": "this is shop",
     "license": "MIT",
     "authors": [
@@ -14,13 +14,13 @@
             "src/Support/helpers.php"
         ],
         "psr-4": {
-            "Pack\\LaravelShops\\": "src"
+            "Packs\\LaravelShops\\": "src"
         }
     },
     "extra":{
       "laravel":{
         "providers":[
-          "Pack\\LaravelShops\\Provider\\ServiceProvider"
+          "Packs\\LaravelShops\\Provider\\ServiceProvider"
         ]
       }
     }

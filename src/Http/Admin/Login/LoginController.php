@@ -1,15 +1,15 @@
 <?php
 
-namespace Pack\LaravelShops\Http\Admin\Login;
+namespace Packs\LaravelShops\Http\Admin\Login;
 
-use Pack\LaravelShops\Http\Controller\Controller;
+use Packs\LaravelShops\Http\Controller\Controller;
 use Illuminate\Http\Request;
-use Pack\LaravelShops\Models\Admin;
+use Packs\LaravelShops\Models\Admin;
 
 /**
  * 后台登陆页面
  * Class IndexController
- * @package Pack\LaravelShops\Http\Admin\Index
+ * @package Packs\LaravelShops\Http\Admin\Index
  */
 class LoginController extends Controller
 {

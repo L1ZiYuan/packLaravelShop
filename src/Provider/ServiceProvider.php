@@ -1,5 +1,5 @@
 <?php
-namespace Pack\LaravelShops\Provider;
+namespace Packs\LaravelShops\Provider;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider as Provoder;
@@ -8,14 +8,14 @@ use Illuminate\Support\ServiceProvider as Provoder;
  * 提供服务提供者服务，与laravel进行结合，可使用laravel框架带的东西
  * 将该服务放入到laravel -- config\app.php 里
  * Class ServiceProvider
- * @package Pack\LaravelShops\Provider
+ * @package Packs\LaravelShops\Provider
  */
 class ServiceProvider extends Provoder
 {
     // 注册的命令
     public $commandData = [
-        'Pack\LaravelShops\Console\Command\installlms',
-        'Pack\LaravelShops\Console\Command\makeClass',
+        'Packs\LaravelShops\Console\Command\installlms',
+        'Packs\LaravelShops\Console\Command\makeClass',
     ];
     /**
      * Register any application services.
@@ -76,7 +76,7 @@ class ServiceProvider extends Provoder
     {
         return [
             // 命名空间指向到控制器
-            'namespace' => 'Pack\LaravelShops\Http',
+            'namespace' => 'Packs\LaravelShops\Http',
             // 前缀
             'prefix' => 'pack',
             // 中间件

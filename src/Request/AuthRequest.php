@@ -1,6 +1,6 @@
 <?php
 
-namespace Pack\LaravelShops\Request;
+namespace Packs\LaravelShops\Request;
 
 use Illuminate\Foundation\Http\FormRequest;
 

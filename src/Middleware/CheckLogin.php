@@ -1,6 +1,6 @@
 <?php
 
-namespace  Pack\LaravelShops\Middleware;
+namespace  Packs\LaravelShops\Middleware;
 
 use Closure;
 

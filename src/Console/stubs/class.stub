@@ -2,7 +2,7 @@
 
 namespace DummyNamespace;
 
-use Pack\LaravelShops\Http\Controller\Controller;
+use Packs\LaravelShops\Http\Controller\Controller;
 use Illuminate\Http\Request;
 
 class DummyClass extends Controller

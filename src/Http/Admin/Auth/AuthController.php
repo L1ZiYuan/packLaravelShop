@@ -1,11 +1,11 @@
 <?php
 
-namespace Pack\LaravelShops\Http\Admin\Auth;
+namespace Packs\LaravelShops\Http\Admin\Auth;
 
-use Pack\LaravelShops\Http\Controller\Controller;
+use Packs\LaravelShops\Http\Controller\Controller;
 use Illuminate\Http\Request;
-use Pack\LaravelShops\Request\AuthRequest;
-use Pack\LaravelShops\Models\Auth;
+use Packs\LaravelShops\Request\AuthRequest;
+use Packs\LaravelShops\Models\Auth;
 
 /**
  * 权限操作控制器

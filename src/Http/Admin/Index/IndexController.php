@@ -1,14 +1,14 @@
 <?php
-namespace Pack\LaravelShops\Http\Admin\Index;
+namespace Packs\LaravelShops\Http\Admin\Index;
 
-use Pack\LaravelShops\Http\Controller\Controller;
+use Packs\LaravelShops\Http\Controller\Controller;
 use Illuminate\Support\Facades\Redirect;
 
 
 /**
  * 首页控制器
  * Class IndexController
- * @package Pack\LaravelShops\Http\Admin\Index
+ * @package Packs\LaravelShops\Http\Admin\Index
  */
 class IndexController extends Controller
 {
