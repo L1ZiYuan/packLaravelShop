@@ -1,0 +1,27 @@
+{
+    "name": "pack\/laravel-shops",
+    "description": "this is shop",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "L1ZiYuan",
+            "email": "L1_ZiYuan@163.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "files":[
+            "src/Support/helpers.php"
+        ],
+        "psr-4": {
+            "Pack\\LaravelShops\\": "src"
+        }
+    },
+    "extra":{
+      "laravel":{
+        "providers":[
+          "Pack\\LaravelShops\\Provider\\ServiceProvider"
+        ]
+      }
+    }
+}
